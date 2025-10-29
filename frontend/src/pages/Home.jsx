@@ -125,6 +125,20 @@ const Home = () => {
                 Built by students, for students. Everyone can contribute.
               </p>
             </div>
+            <div className="text-center p-6">
+              <div className="text-4xl mb-4">🧠</div>
+              <h3 className="text-xl font-semibold mb-2">Topic-wise Practice</h3>
+              <p className="text-gray-600">
+                Practice questions categorized by topic and difficulty to strengthen weak areas.
+              </p>
+            </div>
+            <div className="text-center p-6">
+              <div className="text-4xl mb-4">🔖</div>
+              <h3 className="text-xl font-semibold mb-2">Bookmark Questions</h3>
+              <p className="text-gray-600">
+                Save your favorite interview questions to revisit anytime.
+              </p>
+            </div>
           </div>
         </div>
       </section>
