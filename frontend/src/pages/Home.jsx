@@ -104,25 +104,39 @@ const Home = () => {
           <h2 className="text-3xl font-bold text-center mb-12">Why Use InterviewPrep?</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {/* TODO: Add feature cards */}
-            <div className="text-center p-6">
+            <div className="text-center p-6 bg-white rounded-xl shadow-md hover:shadow-lg hover:-translate-y-2 transform transition duration-300">
               <div className="text-4xl mb-4">📚</div>
               <h3 className="text-xl font-semibold mb-2">Vast Question Bank</h3>
               <p className="text-gray-600">
                 Access thousands of real interview questions from top companies
               </p>
             </div>
-            <div className="text-center p-6">
+            <div className="text-center p-6 bg-white rounded-xl shadow-md hover:shadow-lg hover:-translate-y-2 transform transition duration-300">
               <div className="text-4xl mb-4">🏢</div>
               <h3 className="text-xl font-semibold mb-2">Company-Specific</h3>
               <p className="text-gray-600">
                 Filter questions by company, role, and difficulty level
               </p>
             </div>
-            <div className="text-center p-6">
+            <div className="text-center p-6 bg-white rounded-xl shadow-md hover:shadow-lg hover:-translate-y-2 transform transition duration-300">
               <div className="text-4xl mb-4">🤝</div>
               <h3 className="text-xl font-semibold mb-2">Community-Driven</h3>
               <p className="text-gray-600">
                 Built by students, for students. Everyone can contribute.
+              </p>
+            </div>
+            <div className="text-center p-6 bg-white rounded-xl shadow-md hover:shadow-lg hover:-translate-y-2 transform transition duration-300">
+              <div className="text-4xl mb-4">🧠</div>
+              <h3 className="text-xl font-semibold mb-2">Topic-wise Practice</h3>
+              <p className="text-gray-600">
+                Practice questions categorized by topic and difficulty to strengthen weak areas.
+              </p>
+            </div>
+            <div className="text-center p-6 bg-white rounded-xl shadow-md hover:shadow-lg hover:-translate-y-2 transform transition duration-300">
+              <div className="text-4xl mb-4">🔖</div>
+              <h3 className="text-xl font-semibold mb-2">Bookmark Questions</h3>
+              <p className="text-gray-600">
+                Save your favorite interview questions to revisit anytime.
               </p>
             </div>
           </div>
